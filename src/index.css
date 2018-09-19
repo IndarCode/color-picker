@@ -1,0 +1,94 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  body {
+  margin: 0;
+  padding: 0;
+}
+div#root {
+    padding: 2.5%;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+*{
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a:focus, input:focus{
+  outline:none;
+}
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.logo {
+    position: absolute;
+    left: 5.5%;
+    top: 7.5%;
+    max-width: 12%;
+    display: block;
+}
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 100;
+}
+
+ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    width: 8%;
+}
+li div{
+  height: 100px;
+}
+li span {
+    display: block;
+    font-size: 12px;
+    margin: 5px auto 0;
+    text-align: center;
+}
+input[type="text"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+.controler-holder {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.rgb-holder {
+    display: flex;
+}
+.rgb-holder .block {
+    margin: 0 30px 0 0;
+}
+.block input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.block label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
